@@ -5,10 +5,15 @@
   "author": "Satya Rohith <me@satyarohith.com>",
   "license": "MIT",
   "scripts": {
-    "test": "xo"
+    "test": "xo",
+    "build": "node build.js"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@zeit/ncc": "^0.21.0",
+    "azure-arm-billing": "^2.2.0",
     "husky": "^3.1.0",
+    "ms-rest-azure": "^3.0.0",
     "xo": "^0.25.3"
   },
   "xo": {
